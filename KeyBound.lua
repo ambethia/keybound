@@ -110,6 +110,7 @@ function f:PLAYER_LOGIN()
   for name, _ in pairs(f.BindMapping) do
     local button = getglobal(name)
     if button then
+      local OnEnter = button:GetScript("OnEnter")
       button:SetScript("OnEnter", function(self)
         LibKeyBound:Set(self)
         return OnEnter and OnEnter(self)
