@@ -1,11 +1,16 @@
-## Interface: 40300
+## Interface: 50001
 ## Title: KeyBound
 ## Author: Jason L Perry
-## Notes: Ultrafast on-the-fly key binding for your action bars
+## Version: @project-version@
+## Notes: Ultrafast on-the-fly key binding for your action bars. Use /kb to get started.
+## X-Website: http://ambethia.com/
+## X-Email: jasper@ambethia.com
+## X-Category: Action Bars
 ## OptionalDeps: LibKeyBound-1.0
 
 Libs\LibStub\LibStub.lua
 Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
 Libs\LibKeyBound-1.0\lib.xml
+Libs\tekKonfigAboutPanel.lua
 
 KeyBound.lua

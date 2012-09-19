@@ -122,6 +122,8 @@ function f:PLAYER_LOGIN()
     end
   end
 
+  LibStub("tekKonfig-AboutPanel").new(nil, "KeyBound")
+
   print("Type /kb to activate KeyBound.")
   self:UnregisterEvent("PLAYER_LOGIN")
   self.PLAYER_LOGIN = nil
